@@ -1,1 +1,3 @@
-# MLOps
+# MLOps course for AGH UST
+## Lab 1:
+...
