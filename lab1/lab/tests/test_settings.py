@@ -1,4 +1,4 @@
-from src.settings import Settings
+from lab1.lab.src.settings import Settings
 
 
 def test_check_settings_loaded_correctly():

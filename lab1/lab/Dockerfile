@@ -24,7 +24,7 @@ ENV UV_PROJECT_ENVIRONMENT=/usr/local
 RUN uv sync
 
 # Copy the rest of the application code
-COPY . .
+COPY ../.. .
 
 # Expose the application port
 EXPOSE 8000
