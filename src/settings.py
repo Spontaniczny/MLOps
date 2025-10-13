@@ -1,11 +1,12 @@
 from pydantic_settings import BaseSettings
 from pydantic import field_validator, ValidationError
+from typing import Optional
 
 
 class Settings(BaseSettings):
     ENVIRONMENT: str
     APP_NAME: str
-    SECRET: str
+    SECRET: Optional[str] = None
 
     @field_validator("ENVIRONMENT")
     @classmethod

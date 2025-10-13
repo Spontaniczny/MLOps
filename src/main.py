@@ -25,6 +25,9 @@ if __name__ == "__main__":
 
     with open("secrets.yaml", "r") as f:
         secrets = yaml.safe_load(f)
+        if secrets.get("sops", None) is not None:
+            raise Exception("secrets.yaml needs to be decrypted!")
+
         for key, item in secrets.items():
             os.environ[key] = item
 
