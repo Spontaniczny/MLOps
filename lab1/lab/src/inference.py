@@ -1,6 +1,6 @@
 import joblib
 import os
-from lab1.lab.src.api.models.irys import PredictRequest
+from api.models.irys import PredictRequest
 
 MODEL_FILENAME = "src/iris_classifier.joblib"
 
