@@ -17,7 +17,7 @@ def load_model(filename=MODEL_FILENAME):
     return model, class_names
 
 
-def predict(model, class_names, features):
+def predict(model, class_names, features) -> str:
     feature_array = [[features[key] for key in PredictRequest.model_fields.keys()]]
     predicted_index = model.predict(feature_array)[0]
     predicted_class = class_names[predicted_index]
