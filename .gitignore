@@ -16,6 +16,13 @@ __pycache__/
 # sops file
 **sops.yaml
 
+# datasets
+**/data/*
+**/data/**
+
+# always exclude .gitkeep file
+!**/.gitkeep
+
 # Distribution / packaging
 .Python
 build/
