@@ -1,0 +1,17 @@
+[project]
+name = "lab2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "duckdb",
+    "jupyter",
+    "matplotlib",
+    "pandas",
+    "psycopg[binary]",
+    "pyarrow",
+    "ruff",
+    "scipy",
+]
