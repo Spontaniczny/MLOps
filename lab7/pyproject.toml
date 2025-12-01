@@ -1,0 +1,26 @@
+[project]
+name = "MLOps_course_AGH_lab_07"
+version = "1.0.0"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "ipywidgets>=8.1.8",
+    "notebook>=7.5.0",
+    "numpy",
+    "onnx",
+    "onnxruntime",
+    "torch",
+    "tqdm>=4.67.1",
+    "transformers",
+]
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cu121", marker = "sys_platform == 'linux' or sys_platform == 'win32'" }
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
+explicit = true
