@@ -11,6 +11,7 @@ dependencies = [
     "fastmcp>=2.14.3",
     "guardrails-ai>=0.7.2",
     "ipykernel>=7.2.0",
+    "matplotlib>=3.10.8",
     "mcp-use>=1.5.2",
     "openai<2", # Guardrails AI limitation
     "polars>=1.37.1",
