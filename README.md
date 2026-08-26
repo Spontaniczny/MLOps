@@ -1,3 +1,42 @@
-# MLOps course for AGH UST
-## Lab 1:
-...
+# MLOps Course
+
+A comprehensive course designed to introduce the most important areas of MLOps along with engineering best practices for building end-to-end AI solutions.
+
+## About
+
+This course covers essential MLOps concepts and practices, from development to deployment. You'll learn how to build production-ready machine learning systems using modern tools and methodologies.
+
+## Topics
+
+1. [MLOps introduction](lab1) - dependency management, code quality, Git, FastAPI, Docker
+2. [Databases & file formats](lab2) - PostgreSQL, DuckDB, Parquet
+3. [Data processing](lab3) - Polars
+4. [Vector databases](lab4) - pgvectorscale, SQLAlchemy, Milvus
+5. [Versioning](lab5) - DVC, MLFlow
+6. [ML testing & data-centric AI](lab6) - CleanLab, Giskard, Captum, SHAP
+7. [Model optimization for inference](lab7) - PyTorch optimization, ONNX, ONNX Runtime
+8. [Monitoring & drift detection](lab8) - Evidently, NannyML
+9. [Introduction to cloud computing](lab9) - AWS services
+10. [Infrastructure as Code (IaC)](lab10) - Terraform
+11. [Deployment & CI/CD](lab11) - GitHub Actions
+12. [ML pipelines](lab12) - Apache Airflow
+13. [LLMOps](lab13) - vLLM, Model Context Protocol (MCP), guardrails
+14. [ML system design]
+
+
+## License
+
+This course is open to everyone and is licensed under the [MIT License](LICENSE).
+
+## Course Evolution
+
+This course is continuously evolving and expanding. New topics and improvements are regularly added. If you have suggestions for new topics or improvements, please feel free to open an issue.
+
+## Authors
+
+- [Jakub Nowak](https://github.com/jakubno3ak)
+- [Jakub Adamczyk](https://github.com/j-adamczyk)
+
+## Contributing
+
+Students and contributors who spot errors or have improvements are welcome to create pull requests or issues. Students will be rewarded with extra points for their contributions!
