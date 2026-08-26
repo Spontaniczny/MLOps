@@ -1,3 +1,6 @@
 [submodule "lab5"]
 	path = lab5
 	url = https://github.com/Spontaniczny/MLOps-DVC.git
+[submodule "lab11"]
+	path = lab11
+	url = https://github.com/Spontaniczny/MLOps-Github-Actions
