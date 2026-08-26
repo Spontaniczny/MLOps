@@ -1,4 +1,4 @@
-# End-to-End MLOps Portfolio
+# MLOps 
 
 ## Overview
 This repository contains my implementation of a comprehensive MLOps curriculum. It serves as a practical showcase of my ability to build, deploy, and maintain production-ready machine learning systems. Through these projects, I have transitioned models from isolated development environments into robust, automated, and monitored pipelines using modern engineering best practices.
